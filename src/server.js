@@ -9,7 +9,7 @@ const create = async () => {
     // server
     const app = express();
     app.use(favicon(path.join(__dirname, '../public', 'favicon.ico')));
-    
+
     // Log request
     app.use(utils.appLogger);
 
