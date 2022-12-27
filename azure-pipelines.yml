@@ -16,8 +16,10 @@ steps:
   displayName: 'Install Node.js'
 
 - bash: echo "Hello world"
+  displayName: 'Bash echo command'
 
 - script: lsb_release -a
+  displayName: 'Linux version'
 
 - script: |
     npm install
