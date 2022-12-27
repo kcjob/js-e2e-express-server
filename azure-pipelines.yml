@@ -15,7 +15,6 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-  displayName: "Bash Commands"
 - bash: echo "Hello world"
 - bash lsb_release -a
 
